@@ -48,7 +48,7 @@ const Particles = () => {
   // Añadir rotación continua en el eje Y
   useFrame(() => {
     if (particlesRef.current) {
-      particlesRef.current.rotation.y += 0.001; // Ajusta la velocidad de rotación
+      particlesRef.current.rotation.y += 0.003; // Ajusta la velocidad de rotación
     }
   });
 
